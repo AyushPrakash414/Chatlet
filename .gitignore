@@ -1,0 +1,74 @@
+# ========================
+# Compiled class files
+# ========================
+*.class
+
+# ========================
+# Maven
+# ========================
+/target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ========================
+# Build output
+# ========================
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Spring Boot Properties
+# ========================
+src/main/resources/application.properties
+
+# ========================
+# OS-specific files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ========================
+# Eclipse / Spring Tool Suite
+# ========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ========================
+# NetBeans
+# ========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ========================
+# Visual Studio Code
+# ========================
+.vscode/
+
+# ========================
+# Temporary files
+# ========================
+*.swp
+*.tmp
