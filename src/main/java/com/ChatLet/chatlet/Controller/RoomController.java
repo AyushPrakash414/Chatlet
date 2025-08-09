@@ -18,6 +18,7 @@ public class RoomController
 {
     //create Room
     //get Room
+    //join the room
     //get Messages of the Room
     private RoomRepository roomRepo;
     public ResponseEntity<?> createRoom(String userRoomId)
