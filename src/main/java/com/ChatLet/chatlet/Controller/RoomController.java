@@ -28,7 +28,7 @@ public class RoomController
             return ResponseEntity.badRequest().body("Room is Already Exist");
         }
         else {
-
+            userRoomId = userRoomId.trim();
             ChatRoom room=new ChatRoom();
             room.setRoomId(userRoomId);
             roomRepo.save(room);
@@ -42,6 +42,7 @@ public class RoomController
     )
 
     {
+        roomId = roomId.trim();
         ChatRoom room=roomRepo.findByRoomId(roomId);
         if (room!=null)
         {
