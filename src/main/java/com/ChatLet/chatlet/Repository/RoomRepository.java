@@ -5,5 +5,6 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface RoomRepository extends MongoRepository<ChatRoom,String>
 {
-        ChatRoom findByroomId(String id);
+        ChatRoom findByRoomId(String id);
+
 }
