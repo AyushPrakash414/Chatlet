@@ -2,11 +2,19 @@ package com.ChatLet.chatlet.Entity;
 
 import java.time.LocalDateTime;
 
-public class Messages
-{
-    private String sender;
+public class MessageRequest {
     private String content;
+    private String sender;
+    private String roomId;
     private LocalDateTime localDateTime;
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
 
     public String getSender() {
         return sender;
@@ -16,12 +24,12 @@ public class Messages
         this.sender = sender;
     }
 
-    public String getContent() {
-        return content;
+    public String getRoomId() {
+        return roomId;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setRoomId(String roomId) {
+        this.roomId = roomId;
     }
 
     public LocalDateTime getLocalDateTime() {
